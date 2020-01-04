@@ -1,2 +1,0 @@
-# No-Name
-Completely anonymous

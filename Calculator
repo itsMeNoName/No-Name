@@ -1,0 +1,42 @@
+# codes of calculator
+# print the statement and taking of input from the user
+
+print('This is calculator ')
+print()
+print('1. divide')
+print('2. multiply')
+print('3. sum')
+print('4. substraction')
+
+m = int(input('decide your input to procede: '))
+
+if m <=4 :             # give the signal if m is not atmost 4
+    x = int(input('entre first number: '))
+    y = int(input('entre second number: '))
+    # define the function
+
+    def divide(x, y):
+        return x / y
+
+    def mul(x, y):
+        return x * y
+        
+    def sum(x, y):
+        return x + y
+
+    def sub(x, y):
+        return x - y
+        
+    # print the answer
+
+    if m == 1:
+        print(divide(x, y))
+    elif m == 2:
+        print(mul(x, y))
+    elif m == 3:
+        print(sum(x, y))
+    elif m == 4:
+        print(sub(x, y))
+
+else:
+    print('incorrect output ')
